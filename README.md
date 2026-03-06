@@ -33,7 +33,11 @@ Kita akan belajar secara bertahap, mulai dari maba (mahasiswa baru) sampai jadi 
 Biar makin paham, kamu wajib cobain dan ubah-ubah kodenya. Ada dua cara gampang:
 
 ### 1. Pakai Terminal VSCode (Paling Keren & Cepat ⚡)
-**Penting:** Cara ini **TIDAK PERLU** menaruh folder di `htdocs` dan **TIDAK PERLU** menyalakan XAMPP (Apache). Cukup pastikan PHP sudah terhubung ke komputermu. Kamu bisa menaruh folder belajar ini bebas di tempat mana saja (misal di Desktop).
+**Penting:** Cara ini **TIDAK PERLU** menaruh folder di `htdocs` dan **TIDAK PERLU** menyalakan XAMPP (Apache). Kamu bebas menaruh folder belajar ini di mana saja (misal di Desktop).
+
+**Syarat Wajib:** Komputer/Laptop mahasiswa harus sudah ter-install program **PHP**.
+*   **Jika sudah install XAMPP:** Biasanya PHP sudah otomatis ter-install. (Windows: pastikan folder `C:\xampp\php` sudah ditambahkan ke *Environment Variables*. Mac: biasanya otomatis bisa diakses di terminal).
+*   **Jika belum install apapun:** Bisa install mandiri (mendownload file PHP langsung dari internet untuk Mac/Windows).
 
 1. Buka folder bebas ini di **VSCode**.
 2. Munculkan terminal di VSCode (`Ctrl` + `~` atau `Terminal > New Terminal`).
