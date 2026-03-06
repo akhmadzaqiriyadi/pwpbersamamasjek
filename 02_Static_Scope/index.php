@@ -2,7 +2,7 @@
 class Universitas
 {
     // 1. STATIC KEYWORD: Properti/method yang menempel pada class itu sendiri, bukan pada object (tidak perlu inisialisasi / new).
-    public static string $namaUniversitas = "Universitas Indonesia Maju";
+    public static $namaUniversitas = "Universitas Indonesia Maju";
 
     // Static method
     public static function getInfo(): string
