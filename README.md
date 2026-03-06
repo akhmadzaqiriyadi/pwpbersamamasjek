@@ -33,14 +33,15 @@ Kita akan belajar secara bertahap, mulai dari maba (mahasiswa baru) sampai jadi 
 Biar makin paham, kamu wajib cobain dan ubah-ubah kodenya. Ada dua cara gampang:
 
 ### 1. Pakai Terminal VSCode (Paling Keren & Cepat ⚡)
-Kalau di laptopmu sudah ada XAMPP/PHP, gampang banget:
-1. Buka folder ini di **VSCode**.
+**Penting:** Cara ini **TIDAK PERLU** menaruh folder di `htdocs` dan **TIDAK PERLU** menyalakan XAMPP (Apache). Cukup pastikan PHP sudah terhubung ke komputermu. Kamu bisa menaruh folder belajar ini bebas di tempat mana saja (misal di Desktop).
+
+1. Buka folder bebas ini di **VSCode**.
 2. Munculkan terminal di VSCode (`Ctrl` + `~` atau `Terminal > New Terminal`).
-3. Tinggal ketik:
+3. Tinggal ketik perintah php diikuti nama foldernya:
    ```bash
    php 01_Dasar/index.php
    ```
-   *Boom! Hasilnya langsung muncul di bawah situ.*
+   *Boom! Hasil kode PHP-nya langsung muncul di bawah situ tanpa perlu buka browser.*
 
 ### 2. Pakai Browser & XAMPP (Cara Klasik 🌐)
 1. Pindahkan folder `pwpoopphp` ini ke dalam folder `htdocs` di XAMPP kamu.
