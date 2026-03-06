@@ -27,3 +27,18 @@ Sebagai programmer yang baik, kita nggak boleh membiarkan aplikasi langsung *Cra
 
 ### 🎮 Yuk Cobain Kodenya!
 Buka file `index.php` di folder ini. Coba isikan angka umur `16` dan `18` di dalam kurung kurawal fungsi pendaftaran. Lihat bedanya! Yang umur `16` akan masuk ke bengkel `Catch` dengan rapi.
+
+---
+### 🚀 Cara Menjalankan Kode Ini
+**Cara 1: Menggunakan Terminal VSCode (Direkomendasikan)**
+1. Pastikan folder utama dibuka di VSCode.
+2. Buka Terminal VSCode (`Ctrl` + `~`).
+3. Ketik perintah berikut dan tekan Enter:
+   ```bash
+   php 02_Static_Scope/index.php
+   ```
+
+**Cara 2: Menggunakan Browser & XAMPP**
+1. Pastikan folder project ini berada di `xampp/htdocs`.
+2. Buka browser dan ketik alamat:
+   `http://localhost/pwpoopphp/02_Static_Scope/index.php`

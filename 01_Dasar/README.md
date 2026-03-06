@@ -25,3 +25,18 @@ Bayangkan kita sedang membuat game *The Sims* versi kampus.
 
 ### 🎮 Yuk Cobain Kodenya!
 Buka file `index.php` di folder ini. Coba ganti nama "Budi Santoso" jadi namamu sendiri, lalu jalankan kodenya lewat terminal! Minta dia (objek mahasiswa barumu) untuk `belajar()`.
+
+---
+### 🚀 Cara Menjalankan Kode Ini
+**Cara 1: Menggunakan Terminal VSCode (Direkomendasikan)**
+1. Pastikan folder utama dibuka di VSCode.
+2. Buka Terminal VSCode (`Ctrl` + `~`).
+3. Ketik perintah berikut dan tekan Enter:
+   ```bash
+   php 01_Dasar/index.php
+   ```
+
+**Cara 2: Menggunakan Browser & XAMPP**
+1. Pastikan folder project ini berada di `xampp/htdocs`.
+2. Buka browser dan ketik alamat:
+   `http://localhost/pwpoopphp/01_Dasar/index.php`

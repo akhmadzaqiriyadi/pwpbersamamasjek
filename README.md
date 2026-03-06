@@ -36,8 +36,16 @@ Biar makin paham, kamu wajib cobain dan ubah-ubah kodenya. Ada dua cara gampang:
 **Penting:** Cara ini **TIDAK PERLU** menaruh folder di `htdocs` dan **TIDAK PERLU** menyalakan XAMPP (Apache). Kamu bebas menaruh folder belajar ini di mana saja (misal di Desktop).
 
 **Syarat Wajib:** Komputer/Laptop mahasiswa harus sudah ter-install program **PHP**.
-*   **Jika sudah install XAMPP:** Biasanya PHP sudah otomatis ter-install. (Windows: pastikan folder `C:\xampp\php` sudah ditambahkan ke *Environment Variables*. Mac: biasanya otomatis bisa diakses di terminal).
-*   **Jika belum install apapun:** Bisa install mandiri (mendownload file PHP langsung dari internet untuk Mac/Windows).
+*   **Jika sudah install XAMPP:** Biasanya PHP otomatis ter-install. Tapi khusus untuk pengguna **Windows**, kamu harus mendaftarkan PHP ke *Environment Variables* dulu agar terminal mengenalinya. Berikut caranya:
+    1. Buka `Start Menu` Windows, ketik **"Environment Variables"**, lalu pilih menu *"Edit the system environment variables"*.
+    2. Klik tombol **[ Environment Variables... ]** di pojok kanan bawah.
+    3. Di panel bawah (*System variables*), cari tulisan/variabel **Path**, klik satu kali, lalu klik tombol **[ Edit... ]**.
+    4. Muncul jendela baru, klik tombol **[ New ]** di kanan atas.
+    5. Ketik alamat lokasi aplikasi PHP kamu. Kalau pakai XAMPP biasanya ada di: `C:\xampp\php`. (Atau `C:\xampp\php\` sesuaikan dengan lokasi instalasimu).
+    6. Klik **OK** pada ketiga jendela tadi untuk menutup dan menyimpannya.
+    7. **Wajib:** Tutup semua terminal / Restart aplikasi VSCode kamu agar perubahan terdeteksi.
+    8. Buka kembali Terminal VSCode, lalu ketik `php -v`. Kalau muncul tulisan versi PHP-nya, berarti sukses!
+*   **Jika belum install apapun:** Bisa install mandiri (mendownload file PHP installer langsung dari internet untuk Mac/Windows).
 
 1. Buka folder bebas ini di **VSCode**.
 2. Munculkan terminal di VSCode (`Ctrl` + `~` atau `Terminal > New Terminal`).
